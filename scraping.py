@@ -43,4 +43,5 @@ if response.status_code == 200:
             print(f"Items between your desired prices: {product[0]} ${product[1]}. Reviews: {lst_of_ratings[index]}") 
         else:
             continue
-
+else:
+    print("HTTP did not respond. Recheck URL or wait and try again")
